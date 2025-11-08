@@ -8,7 +8,7 @@ import pandas as pd
 import os
 
 # Configuration
-MODEL_WEIGHTS_PATH = 'densenet121_chexpert_tl_weights.pth' 
+MODEL_WEIGHTS_PATH = './densenet121_chexpert_tl_weights.pth' 
 NUM_CLASSES = 5
 IMAGE_SIZE = 224
 TARGET_LABELS = [
